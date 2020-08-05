@@ -56,7 +56,7 @@ class Rate:
             if self.format == 'value':
                 if self.diff:
                     return response[currency]['Value'] - response[currency]['Previous']
-                else
+                else:
                     return response[currency]['Value']
         
         return 'Error'
