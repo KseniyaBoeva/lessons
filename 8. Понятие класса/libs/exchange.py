@@ -4,14 +4,16 @@ import requests
 def my_sum(x, y):
     """
     Возвращает сумму
-    ккк
+    ghghg
     """
     return x+y
 
 class Rate:
+    format = ''
+    diff   = False
+    
     def __init__(self, format='value'):
         self.format = format
-        self.diff = False
     
     def exchange_rates(self):
         """
